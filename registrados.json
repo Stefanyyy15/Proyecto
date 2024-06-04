@@ -1,0 +1,15 @@
+{
+    "usuarios": {
+        "123": {
+            "Nombres": "Apple",
+            "Apellidos": "Manzana",
+            "Direccion": "frutas",
+            "Acudiente": "mamad de apple",
+            "Contacto": "314",
+            "Telefono fijo": "54665465",
+            "Proceso": "Inscrito",
+            "Riesgo": false,
+            "Resultado prueba": 106.5
+        }
+    }
+}

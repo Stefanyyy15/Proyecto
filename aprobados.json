@@ -1,0 +1,70 @@
+{
+    "usuarios": {
+        "1095304637": {
+            "Nombres": "Maluma",
+            "Apellidos": "pritiboy",
+            "Direccion": "campo hermoso",
+            "Acudiente": "Mama de maluma",
+            "Contacto": "3153065043",
+            "Telefono fijo": "6354789",
+            "Proceso": "Cursando",
+            "Riesgo": false,
+            "Resultado prueba": 119.5
+        },
+        "456": {
+            "Nombres": "Shakira",
+            "Apellidos": "lerololelole",
+            "Direccion": "espana",
+            "Acudiente": "papi de shaki",
+            "Contacto": "314789653",
+            "Telefono fijo": "6543589",
+            "Proceso": "Cursando",
+            "Riesgo": false,
+            "Resultado prueba": 106.5
+        },
+        "658": {
+            "Nombres": "tefa ",
+            "Apellidos": "sanz",
+            "Direccion": "campo",
+            "Acudiente": "rosa",
+            "Contacto": "3153065043",
+            "Telefono fijo": "65897456",
+            "Proceso": "Cursando",
+            "Riesgo": false,
+            "Resultado prueba": 99.5
+        },
+        "1029643923": {
+            "Nombres": "Kevin",
+            "Apellidos": "Romero Rincon",
+            "Direccion": "giron",
+            "Acudiente": "mami de kevin",
+            "Contacto": "3125638044",
+            "Telefono fijo": "123",
+            "Proceso": "Cursando",
+            "Riesgo": false,
+            "Resultado prueba": 127.0
+        },
+        "789": {
+            "Nombres": "Juan",
+            "Apellidos": "Alfonso",
+            "Direccion": "Giron",
+            "Acudiente": "mami de juan ",
+            "Contacto": "3156789456",
+            "Telefono fijo": "6987456",
+            "Proceso": "Cursando",
+            "Riesgo": false,
+            "Resultado prueba": 94.5
+        }
+    },
+    "856": {
+        "Nombres": "Groot",
+        "Apellidos": "arbol",
+        "Direccion": "selva",
+        "Acudiente": "groot mama",
+        "Contacto": "315456875654",
+        "Telefono fijo": "657894532",
+        "Proceso": "Cursando",
+        "Riesgo": false,
+        "Resultado prueba": 114.0
+    }
+}

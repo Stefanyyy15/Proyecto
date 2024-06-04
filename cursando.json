@@ -1,0 +1,48 @@
+{
+    "NodeJs": {
+        "1095304637": {
+            "Proceso": "Cursando",
+            "Riesgo": false,
+            "Resultado prueba": 119.5,
+            "Notas": {
+                "Quizes y Trabajos": 56,
+                "Prueba teorica": 89,
+                "Prueba practica(Proyecto)": 23
+            }
+        },
+        "789": {
+            "Proceso": "Cursando",
+            "Riesgo": false,
+            "Resultado prueba": 94.5,
+            "Notas": {
+                "Quizes y Trabajos": 0,
+                "Prueba teorica": 0,
+                "Prueba practica(Proyecto)": 0
+            }
+        }
+    },
+    "Java": {
+        "456": {
+            "Proceso": "Cursando",
+            "Riesgo": false,
+            "Resultado prueba": 106.5,
+            "Notas": {
+                "Quizes y Trabajos": 0,
+                "Prueba teorica": 0,
+                "Prueba practica(Proyecto)": 0
+            }
+        }
+    },
+    "NetCore": {
+        "1029643923": {
+            "Proceso": "Cursando",
+            "Riesgo": false,
+            "Resultado prueba": 127.0,
+            "Notas": {
+                "Quizes y Trabajos": 0,
+                "Prueba teorica": 0,
+                "Prueba practica(Proyecto)": 0
+            }
+        }
+    }
+}
