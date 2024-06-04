@@ -6,6 +6,8 @@ datos_estudiantes_aprobados= cargar_datos(ruta_estudiantes_aprobados)
 ruta_estudiantes_cursando="cursando.json"
 datos_estudiantes_cursando= cargar_datos(ruta_estudiantes_cursando)
 
+
+
 def modificar_notas():
     print("Digite su documento: ")
     doc=input()
@@ -49,3 +51,5 @@ def modificar_notas():
             print (clave, valor )    
     else:
         print("Valor no valido!")
+
+

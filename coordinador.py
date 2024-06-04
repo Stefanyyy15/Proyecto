@@ -9,6 +9,9 @@ datos_estudiantes_cursando= datos.cargar_datos(ruta_estudiantes_cursando)
 ruta_de_rutas="rutas.json"
 datos_de_rutas=datos.cargar_datos(ruta_de_rutas)
 
+ruta_trainers="trainer.json"
+datos_trainers=datos.cargar_datos(ruta_trainers)
+
 def asignar_ruta(datos_estudiantes_aprobados, datos_estudiantes_cursando):
     print("Digite el documento del camper que desea modificar: ")
     doc = input()
@@ -44,29 +47,39 @@ def asignar_ruta(datos_estudiantes_aprobados, datos_estudiantes_cursando):
             print("El estudiante no está en proceso Cursando.")
     else:
         print("El documento no corresponde a ningún estudiante aprobado.")
-           
+
 def crear_rutas():
-    rutas = datos_estudiantes_cursando.get("rutas")
-    print("Las rutas existentes hasta el momento son:")
-    for clave, valor in rutas.items():
-        print(clave, valor)
-    nueva_ruta = input("Ingrese el nombre de la nueva ruta: ")
-    rutas.append(nueva_ruta)
-    datos.guardar_datos(datos_de_rutas, ruta_de_rutas)
-    print("Ruta añadida exitosamente.")
+    name_ruta=input("Ingrese el nombre de la ruta: ")
+    ruta={}
+
+#def modificar_ruta():
 
 
-def modificar_ruta():
-    rutas = datos_de_rutas.get("rutas")
-    for clave, valor in rutas.items():
-        print(clave, valor)
-    modi = input("Ingrese el número de la ruta que desea modificar: ")
-    if modi in rutas:
-        nuevo_valor = input("Ingrese el nuevo nombre de la ruta: ")
-        rutas[modi] = nuevo_valor
-        datos.guardar_datos(datos_de_rutas, ruta_de_rutas)
-        print("Ruta modificada exitosamente.")
-    else:
-        print("La ruta especificada no existe.")
-
+def asignar_trainer(datos_trainers,datos_estudiantes_cursando):
+    print("Digite el numero de documento del trainer ")
+    doc=input()
+    print("Digite el documento del camper")
+    docu=input()
+    if doc in datos_trainers and docu in datos_estudiantes_cursando:
+        print("Elija la ruta del camper: \n1.NodeJs \n2.Java \n3.NetCore\n")
+        ruta = int(input())
+        if ruta==1:
+            ola=datos_trainers["Trainers"][doc].get("Nombre")
+            datos_estudiantes_cursando
         
+    else:
+        print("Trainer no existe!")
+    
+
+
+def crear_trainer(datos_trainers):
+    bitbop={}
+    print("Digite el numero de documento del trainer ")
+    doc=input()
+    if doc in datos_trainers:
+        print("Trainer Existe!")
+    else:
+        bitbop["Nombre"]=input("Digite el nombre y apellido del trainer: ")
+        bitbop["Edad"]=int(input("Digite la edad del trainer: "))
+        datos_trainers["Trainers"][doc]=bitbop
+        datos.guardar_datos(datos_trainers, ruta_trainers)

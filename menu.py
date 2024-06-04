@@ -29,7 +29,7 @@ def menu_trainer():
 def menu_coordinador():
     print("BIENVENIDO COORDINADOR")
     print("¿Que desea hacer?")
-    print("1.Modificar proceso camper \n2.Asignar rutas\n3.Crear rutas\n4.Modificar rutas\n6.Modificar riesgo camper\n7.Reportes")    
+    print("1.Modificar proceso camper \n2.Asignar rutas\n3.Crear rutas\n4.Modificar rutas\n6.Modificar riesgo camper\n7.Reportes\n8.Crear trainer")    
 
 def pruebas_admision(datos):
     doc=input("Digite su documento: ")
